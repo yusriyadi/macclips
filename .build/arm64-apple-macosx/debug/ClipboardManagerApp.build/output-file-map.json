@@ -51,6 +51,13 @@
     "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/HotKeyService.swiftdeps",
     "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/HotKeyService.dia"
   },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/LaunchAtLoginController.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/LaunchAtLoginController.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/LaunchAtLoginController.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/LaunchAtLoginController~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/LaunchAtLoginController.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/LaunchAtLoginController.dia"
+  },
   "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift": {
     "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/PanelKeyboardCommandHandler.d",
     "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o",

@@ -79,6 +79,10 @@ public final class ClipboardHistoryStore {
         self.items = Array(items.sorted(by: Self.sortItems).prefix(maximumItemCount))
     }
 
+    public func remove(itemWithID id: ClipboardItem.ID) {
+        items.removeAll(where: { $0.id == id })
+    }
+
     private func pruneIfNeeded() {
         guard items.count > maximumItemCount else {
             return

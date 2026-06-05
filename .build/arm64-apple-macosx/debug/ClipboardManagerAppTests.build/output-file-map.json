@@ -2,6 +2,13 @@
   "": {
     "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/master.swiftdeps"
   },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/LaunchAtLoginControllerTests.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests.dia"
+  },
   "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift": {
     "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.d",
     "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swift.o",

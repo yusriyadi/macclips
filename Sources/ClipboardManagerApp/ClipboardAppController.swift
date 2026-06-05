@@ -8,12 +8,16 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
     @Published var query = ""
     @Published private(set) var visibleItems: [ClipboardItem] = []
     @Published private(set) var accessibilityEnabled = PasteCoordinator.accessibilityPermissionEnabled
+    @Published private(set) var launchAtLoginEnabled = false
+    @Published private(set) var launchAtLoginStatusMessage = ""
+    @Published private(set) var launchAtLoginNeedsApproval = false
     @Published private(set) var lastErrorMessage: String?
     @Published private(set) var selectedItemID: ClipboardItem.ID?
 
     private let historyStore: ClipboardHistoryStore
     private let persistence: HistoryPersisting
     private let clipboard: SystemClipboard
+    private let launchAtLoginController: LaunchAtLoginController
     private let suppressionWindow = SuppressionWindow()
     private let pasteCoordinator = PasteCoordinator()
     private let appActivator = FrontmostApplicationActivator()
@@ -43,15 +47,18 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
         persistence: HistoryPersisting = JSONHistoryPersistence(
             fileURL: FileManager.default.clipboardHistoryURL
         ),
-        clipboard: SystemClipboard = SystemClipboard()
+        clipboard: SystemClipboard = SystemClipboard(),
+        launchAtLoginController: LaunchAtLoginController = LaunchAtLoginController()
     ) {
         self.historyStore = historyStore
         self.persistence = persistence
         self.clipboard = clipboard
+        self.launchAtLoginController = launchAtLoginController
     }
 
     func start() {
         loadPersistedItems()
+        refreshLaunchAtLoginState()
         visibleItems = historyStore.items
         clipboardMonitor.start()
         hotKeyService.register()
@@ -93,6 +100,21 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
 
     func requestAccessibilityPermission() {
         accessibilityEnabled = PasteCoordinator.requestAccessibilityPermission()
+    }
+
+    func setLaunchAtLoginEnabled(_ enabled: Bool) {
+        do {
+            try launchAtLoginController.setEnabled(enabled)
+            refreshLaunchAtLoginState()
+            lastErrorMessage = nil
+        } catch {
+            refreshLaunchAtLoginState()
+            lastErrorMessage = error.localizedDescription
+        }
+    }
+
+    func openLaunchAtLoginSystemSettings() {
+        launchAtLoginController.openSystemSettings()
     }
 
     func clearError() {
@@ -138,6 +160,12 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
         clearError()
     }
 
+    func removeItem(_ item: ClipboardItem) {
+        historyStore.remove(itemWithID: item.id)
+        persistItems()
+        refreshVisibleItems()
+    }
+
     func handleKeyboardCommand(_ command: PanelKeyboardCommand) -> Bool {
         panelKeyboardCommandHandler.handle(command)
     }
@@ -167,6 +195,12 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
         } catch {
             lastErrorMessage = "Failed to load clipboard history."
         }
+    }
+
+    private func refreshLaunchAtLoginState() {
+        launchAtLoginEnabled = launchAtLoginController.isEnabled
+        launchAtLoginStatusMessage = launchAtLoginController.statusMessage
+        launchAtLoginNeedsApproval = launchAtLoginController.needsApproval
     }
 
     private func persistItems() {

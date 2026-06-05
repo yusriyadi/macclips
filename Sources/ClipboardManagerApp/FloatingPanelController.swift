@@ -16,19 +16,29 @@ final class FloatingPanelController {
         self.appController = appController
         panel = NSPanel(
             contentRect: NSRect(x: 0, y: 0, width: 560, height: 420),
-            styleMask: [.titled, .fullSizeContentView, .nonactivatingPanel],
+            styleMask: [.titled, .fullSizeContentView, .closable, .miniaturizable, .nonactivatingPanel],
             backing: .buffered,
             defer: false
         )
-        panel.titleVisibility = .hidden
+        panel.title = "Clipboard History"
         panel.titlebarAppearsTransparent = true
+        panel.isOpaque = false
+        panel.backgroundColor = .clear
         panel.isFloatingPanel = true
         panel.level = .statusBar
         panel.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary, .transient]
         panel.isReleasedWhenClosed = false
         panel.hidesOnDeactivate = false
         panel.center()
-        panel.contentView = NSHostingView(rootView: ClipboardPanelView(appController: appController))
+
+        // Hide zoom button, keep close and minimize
+        panel.standardWindowButton(.zoomButton)?.isHidden = true
+
+        let hostingView = NSHostingView(rootView: ClipboardPanelView(appController: appController))
+        hostingView.wantsLayer = true
+        hostingView.layer?.cornerRadius = 12
+        hostingView.layer?.masksToBounds = true
+        panel.contentView = hostingView
     }
 
     func show() {

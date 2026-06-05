@@ -4,27 +4,123 @@ import AppKit
 
 struct ClipboardPanelView: View {
     @ObservedObject var appController: ClipboardAppController
+    @State private var showSettings = false
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 12) {
+            // Header
             HStack {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Clipboard History")
+                Button {
+                    showSettings.toggle()
+                } label: {
+                    Image(systemName: showSettings ? "chevron.left" : "gearshape")
+                        .font(.system(size: 14))
+                        .foregroundStyle(.secondary)
+                }
+                .buttonStyle(.plain)
+
+                if showSettings {
+                    Text("Settings")
                         .font(.title3.weight(.semibold))
-                    Text(appController.accessibilityEnabled ? "Ready to paste into the active app." : "Accessibility permission is needed for auto-paste.")
+                } else {
+                    Text(appController.accessibilityEnabled ? "Ready to paste into the active app." : "Accessibility permission required for auto-paste.")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
 
                 Spacer()
+            }
 
-                if appController.accessibilityEnabled == false {
-                    Button("Enable Auto-Paste") {
-                        appController.requestAccessibilityPermission()
+            if showSettings {
+                settingsView
+            } else {
+                clipboardListView
+            }
+        }
+        .padding(.horizontal, 14)
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .padding(.bottom, 10)
+        .frame(width: 560, height: 420)
+        .background(.ultraThinMaterial)
+        .onExitCommand {
+            if showSettings {
+                showSettings = false
+            } else {
+                appController.dismissPanel()
+            }
+        }
+    }
+
+    // MARK: - Settings
+
+    private var settingsView: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Auto-Paste")
+                    .font(.headline)
+
+                Text("Auto-paste requires Accessibility permission to send keyboard events to other applications.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                HStack {
+                    Circle()
+                        .fill(appController.accessibilityEnabled ? Color.green : Color.red)
+                        .frame(width: 8, height: 8)
+                    Text(appController.accessibilityEnabled ? "Permission granted" : "Permission needed")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                    Spacer()
+                    if !appController.accessibilityEnabled {
+                        Button("Enable") {
+                            appController.requestAccessibilityPermission()
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .controlSize(.small)
                     }
                 }
             }
 
+            Divider()
+
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Launch at Login")
+                    .font(.headline)
+
+                Toggle(
+                    "Open Clipboard Manager when I log in",
+                    isOn: Binding(
+                        get: { appController.launchAtLoginEnabled },
+                        set: { appController.setLaunchAtLoginEnabled($0) }
+                    )
+                )
+                .toggleStyle(.switch)
+
+                Text(appController.launchAtLoginStatusMessage)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                if appController.launchAtLoginNeedsApproval {
+                    Button("Open Login Items in System Settings") {
+                        appController.openLaunchAtLoginSystemSettings()
+                    }
+                    .buttonStyle(.bordered)
+                    .controlSize(.small)
+                }
+            }
+
+            Divider()
+
+            Spacer()
+        }
+    }
+
+    // MARK: - Clipboard List
+
+    private var clipboardListView: some View {
+        Group {
             TextField("Search clipboard", text: $appController.query)
                 .textFieldStyle(.roundedBorder)
                 .onChange(of: appController.query) { _ in
@@ -54,7 +150,8 @@ struct ClipboardPanelView: View {
                     List(appController.visibleItems) { item in
                         ClipboardItemRow(
                             item: item,
-                            isSelected: appController.selectedItemID == item.id
+                            isSelected: appController.selectedItemID == item.id,
+                            onDelete: { appController.removeItem(item) }
                         )
                         .id(item.id)
                         .contentShape(Rectangle())
@@ -77,18 +174,15 @@ struct ClipboardPanelView: View {
                 }
             }
         }
-        .padding(20)
-        .frame(width: 560, height: 420)
-        .background(.ultraThinMaterial)
-        .onExitCommand {
-            appController.dismissPanel()
-        }
     }
 }
+
+// MARK: - Row
 
 private struct ClipboardItemRow: View {
     let item: ClipboardItem
     let isSelected: Bool
+    let onDelete: () -> Void
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -106,9 +200,23 @@ private struct ClipboardItemRow: View {
 
             Spacer()
 
-            Text(item.lastSeenAt.formatted(date: .omitted, time: .shortened))
-                .font(.caption2)
-                .foregroundStyle(.secondary)
+            VStack(alignment: .trailing, spacing: 4) {
+                Button {
+                    onDelete()
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
+                        .font(.system(size: 13))
+                        .foregroundStyle(.secondary.opacity(0.5))
+                }
+                .buttonStyle(.plain)
+                .frame(width: 20, height: 20)
+
+                Spacer()
+
+                Text(item.lastSeenAt.formatted(date: .omitted, time: .shortened))
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+            }
         }
         .padding(.vertical, 4)
     }

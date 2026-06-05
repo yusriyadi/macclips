@@ -56,6 +56,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/LaunchAtLoginController.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift"
         },
         {
@@ -106,6 +110,7 @@
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardPanelView.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/FloatingPanelController.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/HotKeyService.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/LaunchAtLoginController.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandMapper.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelSelectionState.swift.o",
@@ -198,6 +203,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/LaunchAtLoginController.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o"
         },
         {
@@ -238,6 +247,7 @@
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardPanelView.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/FloatingPanelController.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/HotKeyService.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/LaunchAtLoginController.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandMapper.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelSelectionState.swift",
@@ -254,6 +264,10 @@
       "fileList" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/sources",
       "importPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
       "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/LaunchAtLoginControllerTests.swift"
+        },
         {
           "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift"
@@ -295,6 +309,7 @@
       "moduleName" : "ClipboardManagerAppTests",
       "moduleOutputPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerAppTests.swiftmodule",
       "objects" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.swift.o",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelSelectionStateTests.swift.o",
@@ -359,6 +374,10 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swift.o"
         },
         {
@@ -384,6 +403,7 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/LaunchAtLoginControllerTests.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandMapperTests.swift",
         "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelSelectionStateTests.swift",
@@ -749,6 +769,7 @@
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardPanelView.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/FloatingPanelController.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/HotKeyService.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/LaunchAtLoginController.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandMapper.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelSelectionState.swift",
@@ -818,6 +839,7 @@
       "-package-name",
       "clipboard_manager",
       "-c",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/LaunchAtLoginControllerTests.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandMapperTests.swift",
       "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelSelectionStateTests.swift",
@@ -1157,6 +1179,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/LaunchAtLoginController.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift"
         },
         {
@@ -1223,6 +1249,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/LaunchAtLoginController.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o"
         },
         {
@@ -1274,6 +1304,10 @@
         {
           "kind" : "virtual",
           "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/LaunchAtLoginControllerTests.swift"
         },
         {
           "kind" : "file",
@@ -1393,6 +1427,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/LaunchAtLoginController.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o"
         },
         {
@@ -1418,6 +1456,10 @@
         {
           "kind" : "file",
           "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SystemClipboard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/LaunchAtLoginControllerTests.swift.o"
         },
         {
           "kind" : "file",
