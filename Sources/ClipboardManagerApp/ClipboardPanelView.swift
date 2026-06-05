@@ -1,5 +1,6 @@
 import ClipboardManagerCore
 import SwiftUI
+import AppKit
 
 struct ClipboardPanelView: View {
     @ObservedObject var appController: ClipboardAppController
@@ -50,16 +51,21 @@ struct ClipboardPanelView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
                 ScrollViewReader { proxy in
-                    List(appController.visibleItems, selection: selectionBinding) { item in
-                        Button {
-                            appController.setSelectedItem(id: item.id)
-                            appController.select(item)
-                        } label: {
-                            ClipboardItemRow(item: item)
-                        }
-                        .buttonStyle(.plain)
-                        .tag(item.id)
+                    List(appController.visibleItems) { item in
+                        ClipboardItemRow(
+                            item: item,
+                            isSelected: appController.selectedItemID == item.id
+                        )
                         .id(item.id)
+                        .contentShape(Rectangle())
+                        .onTapGesture {
+                            appController.select(item)
+                        }
+                        .listRowBackground(
+                            appController.selectedItemID == item.id
+                                ? Color.accentColor.opacity(0.12)
+                                : Color.clear
+                        )
                     }
                     .listStyle(.plain)
                     .onChange(of: appController.selectedItemID) { newID in
@@ -78,33 +84,16 @@ struct ClipboardPanelView: View {
             appController.dismissPanel()
         }
     }
-
-    private var selectionBinding: Binding<ClipboardItem.ID?> {
-        Binding(
-            get: { appController.selectedItemID },
-            set: { newValue in
-                guard let newValue else {
-                    return
-                }
-
-                appController.setSelectedItem(id: newValue)
-            }
-        )
-    }
 }
 
 private struct ClipboardItemRow: View {
     let item: ClipboardItem
+    let isSelected: Bool
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            RoundedRectangle(cornerRadius: 10)
-                .fill(item.kind == .text ? Color.accentColor.opacity(0.12) : Color.orange.opacity(0.18))
+            thumbnailView
                 .frame(width: 44, height: 44)
-                .overlay {
-                    Image(systemName: item.kind == .text ? "text.alignleft" : "photo")
-                        .foregroundStyle(item.kind == .text ? Color.accentColor : Color.orange)
-                }
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(item.previewText)
@@ -115,10 +104,47 @@ private struct ClipboardItemRow: View {
                     .foregroundStyle(.secondary)
             }
 
+            Spacer()
+
             Text(item.lastSeenAt.formatted(date: .omitted, time: .shortened))
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }
         .padding(.vertical, 4)
+    }
+
+    @ViewBuilder
+    private var thumbnailView: some View {
+        if item.kind == .image, let data = item.thumbnailData ?? item.imageData {
+            if let nsImage = NSImage(data: data) {
+                Image(nsImage: nsImage)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 44, height: 44)
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
+            } else {
+                imagePlaceholder
+            }
+        } else {
+            textPlaceholder
+        }
+    }
+
+    private var textPlaceholder: some View {
+        RoundedRectangle(cornerRadius: 10)
+            .fill(Color.accentColor.opacity(0.12))
+            .overlay {
+                Image(systemName: "text.alignleft")
+                    .foregroundStyle(Color.accentColor)
+            }
+    }
+
+    private var imagePlaceholder: some View {
+        RoundedRectangle(cornerRadius: 10)
+            .fill(Color.orange.opacity(0.18))
+            .overlay {
+                Image(systemName: "photo")
+                    .foregroundStyle(Color.orange)
+            }
     }
 }

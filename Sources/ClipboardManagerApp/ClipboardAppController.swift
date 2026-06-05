@@ -19,6 +19,7 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
     private let appActivator = FrontmostApplicationActivator()
     private let focusHandoffWaiter = FocusHandoffWaiter()
     private let panelSelectionState = PanelSelectionState()
+    private var isPerformingSelection = false
     private lazy var panelKeyboardCommandHandler = PanelKeyboardCommandHandler(
         moveUp: { [weak self] in self?.moveSelectionUp() },
         moveDown: { [weak self] in self?.moveSelectionDown() },
@@ -76,6 +77,9 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
     }
 
     func select(_ item: ClipboardItem) {
+        guard !isPerformingSelection else { return }
+        isPerformingSelection = true
+
         do {
             suppressionWindow.begin(duration: 1.0)
             try performSelection(item, shouldAutoPaste: accessibilityEnabled)
@@ -83,6 +87,8 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
         } catch {
             lastErrorMessage = error.localizedDescription
         }
+
+        isPerformingSelection = false
     }
 
     func requestAccessibilityPermission() {
@@ -104,9 +110,12 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
     }
 
     func confirmSelection() {
+        guard !isPerformingSelection else { return }
         guard let item = panelSelectionState.selectedItem() else {
             return
         }
+
+        isPerformingSelection = true
 
         do {
             suppressionWindow.begin(duration: 1.0)
@@ -115,6 +124,8 @@ final class ClipboardAppController: ObservableObject, PanelDismissing {
         } catch {
             lastErrorMessage = error.localizedDescription
         }
+
+        isPerformingSelection = false
     }
 
     func setSelectedItem(id: ClipboardItem.ID) {
