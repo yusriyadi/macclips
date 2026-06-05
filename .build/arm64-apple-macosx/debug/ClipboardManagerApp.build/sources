@@ -1,0 +1,14 @@
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/AppDelegate.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardAppController.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardManagerApp.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardMonitor.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardPanelView.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/FloatingPanelController.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/HotKeyService.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandMapper.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelSelectionState.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PasteCoordinator.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SelectionCoordinator.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SingleInstanceCoordinator.swift
+/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SystemClipboard.swift

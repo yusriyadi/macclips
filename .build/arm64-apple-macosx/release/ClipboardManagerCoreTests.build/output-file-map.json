@@ -1,0 +1,19 @@
+{
+  "": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardManagerCoreTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardManagerCoreTests.o",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/master.swiftdeps"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/ClipboardHistoryStoreTests.swift": {
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardHistoryStoreTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardHistoryStoreTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardHistoryStoreTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardHistoryStoreTests.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/SuppressionWindowTests.swift": {
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/SuppressionWindowTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/SuppressionWindowTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/SuppressionWindowTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/SuppressionWindowTests.dia"
+  }
+}

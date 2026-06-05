@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/master.swiftdeps"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandMapperTests.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelSelectionStateTests.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelSelectionStateTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelSelectionStateTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelSelectionStateTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelSelectionStateTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/PanelSelectionStateTests.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SelectionCoordinatorTests.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SelectionCoordinatorTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SelectionCoordinatorTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SelectionCoordinatorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SelectionCoordinatorTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SelectionCoordinatorTests.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SingleInstanceCoordinatorTests.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests.dia"
+  }
+}

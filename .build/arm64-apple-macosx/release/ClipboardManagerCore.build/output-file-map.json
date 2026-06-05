@@ -1,0 +1,31 @@
+{
+  "": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardManagerCore.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardManagerCore.o",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/master.swiftdeps"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardHistoryStore.swift": {
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardModels.swift": {
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/HistoryPersistence.swift": {
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence.dia"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/SuppressionWindow.swift": {
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow.dia"
+  }
+}

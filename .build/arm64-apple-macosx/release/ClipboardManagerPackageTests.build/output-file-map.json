@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/ClipboardManagerPackageTests.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/ClipboardManagerPackageTests.o",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/master.swiftdeps"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.derived/runner.swift": {
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/runner.dia"
+  }
+}

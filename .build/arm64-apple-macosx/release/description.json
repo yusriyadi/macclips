@@ -1,0 +1,1488 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.xctest/Contents/MacOS/ClipboardManagerPackageTests",
+      "packagePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager",
+      "productName" : "ClipboardManagerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ClipboardManagerApp-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/sources",
+      "importPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardAppController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardManagerApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/FloatingPanelController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/HotKeyService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelSelectionState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PasteCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SelectionCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SingleInstanceCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SystemClipboard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ClipboardManagerApp",
+      "moduleOutputPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerApp.swiftmodule",
+      "objects" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/AppDelegate.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardAppController.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardManagerApp.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardMonitor.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardPanelView.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/FloatingPanelController.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/HotKeyService.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandMapper.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelSelectionState.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PasteCoordinator.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SelectionCoordinator.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SingleInstanceCoordinator.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SystemClipboard.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "8",
+        "-serialize-diagnostics",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "ClipboardManagerApp_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "clipboard_manager"
+      ],
+      "outputFileMapPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardAppController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardManagerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/FloatingPanelController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/HotKeyService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelSelectionState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PasteCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SelectionCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SingleInstanceCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SystemClipboard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/AppDelegate.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardAppController.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardManagerApp.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardMonitor.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardPanelView.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/FloatingPanelController.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/HotKeyService.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandMapper.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelSelectionState.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PasteCoordinator.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SelectionCoordinator.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SingleInstanceCoordinator.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SystemClipboard.swift"
+      ],
+      "tempsPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ClipboardManagerAppTests-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/sources",
+      "importPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandMapperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelSelectionStateTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SelectionCoordinatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SingleInstanceCoordinatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ClipboardManagerAppTests",
+      "moduleOutputPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerAppTests.swiftmodule",
+      "objects" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelSelectionStateTests.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/SelectionCoordinatorTests.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "8",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/index/store",
+        "-O",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "clipboard_manager"
+      ],
+      "outputFileMapPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelSelectionStateTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/SelectionCoordinatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerAppTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandMapperTests.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelSelectionStateTests.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SelectionCoordinatorTests.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SingleInstanceCoordinatorTests.swift"
+      ],
+      "tempsPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ClipboardManagerCore-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/sources",
+      "importPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardHistoryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/HistoryPersistence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/SuppressionWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ClipboardManagerCore",
+      "moduleOutputPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCore.swiftmodule",
+      "objects" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "8",
+        "-serialize-diagnostics",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/include/ClipboardManagerCore-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "clipboard_manager"
+      ],
+      "outputFileMapPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardHistoryStore.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardModels.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/HistoryPersistence.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/SuppressionWindow.swift"
+      ],
+      "tempsPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ClipboardManagerCoreTests-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/sources",
+      "importPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/ClipboardHistoryStoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/SuppressionWindowTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ClipboardManagerCoreTests",
+      "moduleOutputPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardHistoryStoreTests.swift.o",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/SuppressionWindowTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "8",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/index/store",
+        "-O",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "clipboard_manager"
+      ],
+      "outputFileMapPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardHistoryStoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/SuppressionWindowTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/ClipboardHistoryStoreTests.swift",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/SuppressionWindowTests.swift"
+      ],
+      "tempsPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ClipboardManagerPackageTests-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/sources",
+      "importPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerAppTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ClipboardManagerPackageTests",
+      "moduleOutputPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "8",
+        "-serialize-diagnostics",
+        "-O",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/include/ClipboardManagerPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "clipboard_manager"
+      ],
+      "outputFileMapPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules/ClipboardManagerPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ClipboardManagerApp" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ClipboardManagerApp",
+      "-package-name",
+      "clipboard_manager",
+      "-c",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/AppDelegate.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardAppController.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardManagerApp.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardMonitor.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardPanelView.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/FloatingPanelController.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/HotKeyService.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandMapper.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelSelectionState.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PasteCoordinator.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SelectionCoordinator.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SingleInstanceCoordinator.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SystemClipboard.swift",
+      "-I",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-serialize-diagnostics",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "ClipboardManagerApp_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "clipboard_manager",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ClipboardManagerAppTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ClipboardManagerAppTests",
+      "-package-name",
+      "clipboard_manager",
+      "-c",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandMapperTests.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelSelectionStateTests.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SelectionCoordinatorTests.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SingleInstanceCoordinatorTests.swift",
+      "-I",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/index/store",
+      "-O",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "clipboard_manager",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ClipboardManagerCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ClipboardManagerCore",
+      "-package-name",
+      "clipboard_manager",
+      "-c",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardHistoryStore.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardModels.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/HistoryPersistence.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/SuppressionWindow.swift",
+      "-I",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-serialize-diagnostics",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/include/ClipboardManagerCore-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "clipboard_manager",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ClipboardManagerCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ClipboardManagerCoreTests",
+      "-package-name",
+      "clipboard_manager",
+      "-c",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/ClipboardHistoryStoreTests.swift",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/SuppressionWindowTests.swift",
+      "-I",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/index/store",
+      "-O",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "clipboard_manager",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ClipboardManagerPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ClipboardManagerPackageTests",
+      "-package-name",
+      "clipboard_manager",
+      "-c",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-serialize-diagnostics",
+      "-O",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/include/ClipboardManagerPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "clipboard_manager",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ClipboardManagerApp" : [
+      "ClipboardManagerCore"
+    ],
+    "ClipboardManagerAppTests" : [
+      "ClipboardManagerApp",
+      "ClipboardManagerCore"
+    ],
+    "ClipboardManagerCore" : [
+
+    ],
+    "ClipboardManagerCoreTests" : [
+      "ClipboardManagerCore"
+    ],
+    "ClipboardManagerPackageTests" : [
+      "ClipboardManagerAppTests",
+      "ClipboardManagerApp",
+      "ClipboardManagerCoreTests",
+      "ClipboardManagerCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardAppController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardManagerApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/ClipboardPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/FloatingPanelController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/HotKeyService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelKeyboardCommandMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PanelSelectionState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/PasteCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SelectionCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SingleInstanceCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerApp/SystemClipboard.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/sources"
+    },
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardAppController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardManagerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/FloatingPanelController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/HotKeyService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelSelectionState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PasteCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SelectionCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SingleInstanceCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SystemClipboard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.product/Objects.LinkFileList"
+    },
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandHandlerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelKeyboardCommandMapperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/PanelSelectionStateTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SelectionCoordinatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerAppTests/SingleInstanceCoordinatorTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/sources"
+    },
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardHistoryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/ClipboardModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/HistoryPersistence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Sources/ClipboardManagerCore/SuppressionWindow.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/sources"
+    },
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/ClipboardHistoryStoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/Tests/ClipboardManagerCoreTests/SuppressionWindowTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/sources"
+    },
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/sources"
+    },
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardAppController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardManagerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/ClipboardPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/FloatingPanelController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/HotKeyService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelKeyboardCommandMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PanelSelectionState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/PasteCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SelectionCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SingleInstanceCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerApp.build/SystemClipboard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandHandlerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelKeyboardCommandMapperTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/PanelSelectionStateTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/SelectionCoordinatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerAppTests.build/SingleInstanceCoordinatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardHistoryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/ClipboardModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/HistoryPersistence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCore.build/SuppressionWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/ClipboardHistoryStoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerCoreTests.build/SuppressionWindowTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.build/runner.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/ClipboardManagerPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

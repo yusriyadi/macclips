@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerPackageTests.build/master.swiftdeps"
+  },
+  "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerPackageTests.build/runner.d",
+    "object": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/yusriyadi/Developer/new-project/clipboard-manager/.build/arm64-apple-macosx/debug/ClipboardManagerPackageTests.build/runner.dia"
+  }
+}
